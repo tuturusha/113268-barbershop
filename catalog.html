@@ -17,7 +17,7 @@
               <li><a href="info.html">Информация</a></li>
               <li><a href="news.html">Новости</a></li>
               <li><a href="price.html">Прайс-лист</a></li>
-              <li><a href="catalog.html">Магазин</a></li>
+              <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
               <li><a href="contacts.html">Новости</a></li>
             </ul>
             <ul class="user=navigation">
@@ -27,16 +27,15 @@
         </div>  
       </nav>
     </header>
-    <nav class="second-navigation">
+    <main class="container">
+    
       <h1>Средства для ухода</h1>
-      <ul>
-        <li><a>Главная</a></li>
-        <li><a>Магазин</a></li>
-        <li><a>Средства для ухода</a></li>
+      <ul class="breadcrumbs">
+        <li><a href="index-html">Главная</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li class="breadcrumbs-curent">Средства для ухода</li>
       </ul>
-    </nav>
-    <main>
-      
+
     </main>
     <footer class="main-footer">
       <p class="footer-contacts">
@@ -58,7 +57,16 @@
         <a class="button" href="http://htmlacademy.ru">HTML Academy</a>
       </p>
     </footer> 
- 
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Введите свой логин и пароль</p>
+          <!--Форма  -->
+          <span class="modal modal-close">x</span>
+      </section> 
+      <section class="modal modal-map">
+        <h2 class="visually-hidden">Как до нас добраться</h2>
+        <span class="modal modal-close">x</span>
+      </section>
 
   </body>
 </html>
